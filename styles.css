@@ -1,0 +1,78 @@
+header, footer{
+	background-color: rgba(211,211,211,.1);
+	height: 60px;
+}
+
+header p {
+	display: inline-block;
+	padding: 10px;
+	margin: 0;
+}
+
+#name {
+	font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+	font-size: 1.75em;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-right: 365px;
+}
+
+.mainheading {
+	font-family: Arial;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.headings {
+	font-size: 1.5em;
+}
+.headings, .technologies {
+	font-family: Arial;
+	font-weight: bold;
+	background: linear-gradient(lightgray, gray, lightgray);
+	color: white;
+	margin: 0;
+	padding: 10px;
+}
+
+.technologies {
+	font-size: 1em;
+}
+#container {
+	background: radial-gradient(#5E4951 70%, black); 
+	height: auto;
+}
+
+#profileimg {
+	display: inline-block;
+}
+#profileimg img {
+	width: 430px;
+	height: 270px;
+	border: 5px solid gray;
+}
+
+.about {
+	width: 500px;
+	display: inline-block;	
+}
+.bio, a {
+	background-color: white;
+	color: black;
+	margin: 0;
+}
+
+#top {
+	background-color: gray;
+}
+
+.projects {
+	width: 300px;
+	display: inline-block;
+}
+
+.projdesc img {
+	width: 300px;
+}
+
+
