@@ -1,6 +1,11 @@
+body {
+	width: 1000px;
+}
 header, footer{
-	background-color: rgba(211,211,211,.1);
+	background-color: #f9f9f9;
 	height: 60px;
+	width: 1000px;
+
 }
 
 header p {
@@ -24,7 +29,7 @@ header p {
 }
 
 .headings {
-	font-size: 1.5em;
+	font-size: 1.25em;
 }
 .headings, .technologies {
 	font-family: Arial;
@@ -45,21 +50,41 @@ header p {
 
 #profileimg {
 	display: inline-block;
+	margin-top: 25px;
 }
 #profileimg img {
-	width: 430px;
-	height: 270px;
+	width: 425px;
+	height: 250px;
 	border: 5px solid gray;
 }
 
 .about {
-	width: 500px;
-	display: inline-block;	
+	width: 475px;
+	height: 250px;
+	display: inline-block;
+	margin-left: 25px;
+	margin-top: 25px;
+
+}
+
+.bio {
+	padding: 10px 15px 0px 10px;
+}
+
+.topsection {
+	padding: 25px 25px 0px 25px ;
+	margin: 0;
+}
+ 
+a {
+	padding: 15px 0 25px 15px;
+	display: block;
 }
 .bio, a {
 	background-color: white;
 	color: black;
 	margin: 0;
+
 }
 
 #top {
@@ -68,11 +93,82 @@ header p {
 
 .projects {
 	width: 300px;
+	height: 600px;
 	display: inline-block;
+	
 }
 
 .projdesc img {
 	width: 300px;
+	margin: 0;
+	display: block;
+}
+
+.projdesc p {
+	text-align: justify;
+	padding: 12px;
+}
+.projdesc p, .icons {
+	background-color: white;
+	margin: 0px;
+}
+
+.icon {
+	width: 42px;
+	padding: 10px 0px 0px 12px;
+}
+
+button {
+	background-color: #107951;
+	border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.button {
+	text-align: center;
+
+}
+
+li {
+	display: inline;
+}
+li a {
+	font-style: italic;
+	display: inline
+}
+
+li img {
+	display: inline-block;
+	width: 25px;
 }
 
 
+#contact {
+	margin: 0 auto;
+	padding: 0;
+	list-style-type: none;
+}
+
+.table {
+	display: table;
+	margin: 0 auto;
+}
+
+footer {
+	text-align: center;
+}
+#contact li {
+	margin: 0;
+	padding: 0;
+	float: left;
+}
