@@ -51,6 +51,8 @@ header p {
 #profileimg {
 	display: inline-block;
 	margin-top: 25px;
+	margin-left: 25px;
+	height: 250px;
 }
 #profileimg img {
 	width: 425px;
@@ -59,11 +61,12 @@ header p {
 }
 
 .about {
-	width: 475px;
+	width: 484px;
 	height: 250px;
 	display: inline-block;
 	margin-left: 25px;
-	margin-top: 25px;
+	margin-top: 26px;
+	vertical-align: top;
 
 }
 
@@ -72,12 +75,12 @@ header p {
 }
 
 .topsection {
-	padding: 25px 25px 0px 25px ;
+	padding: 0;
 	margin: 0;
 }
  
 a {
-	padding: 15px 0 25px 15px;
+	padding: 15px 0 38px 15px;
 	display: block;
 }
 .bio, a {
@@ -95,7 +98,15 @@ a {
 	width: 300px;
 	height: 600px;
 	display: inline-block;
-	
+	margin: 25px 0px 20px 0;
+}
+
+#lamode {
+	margin-left: 25px;
+}
+
+#familycontacts, #fiveeleven {
+	margin-left: 20px;
 }
 
 .projdesc img {
@@ -104,9 +115,14 @@ a {
 	display: block;
 }
 
+.projdesc {
+	height:350px;
+}
 .projdesc p {
 	text-align: justify;
 	padding: 12px;
+	height: 185px;
+
 }
 .projdesc p, .icons {
 	background-color: white;
